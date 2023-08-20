@@ -20,7 +20,7 @@ def npar (n, m):
 
 def sum_n(n=50):
     if(n>0):
-        return n + sumn(n-1)
+        return n + sum_n(n-1)
     return 0
 
 # Ejercicio 6
