@@ -75,6 +75,7 @@ def menu():
         uno=int(input("Ingrese un valor: "))
         dos=int(input("Ingrese un segundo valor: "))
         return divi_2(uno,dos)
+    # f)
     if(valor == "5"):
         return "Finaliza el programa"
     
@@ -82,17 +83,14 @@ def suma_2(a,b):
     print (a+b)
     return menu()
 
-# b)
 def resta_2(a,b):
     print (a-b)
     return menu()
 
-# c)
 def multiplicacion_2(a,b):
     print (a*b)
     return menu()
 
-# d)
 def divi_2(a,b):
     print (a/b)
     return menu()
